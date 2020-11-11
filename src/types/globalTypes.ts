@@ -1359,6 +1359,7 @@ export interface ProductCreateInput {
   visibleInListings?: boolean | null;
   productType: string;
   stocks?: StockInput[] | null;
+  rating?: number | null;
 }
 
 export interface ProductFilterInput {
@@ -1395,6 +1396,7 @@ export interface ProductInput {
   trackInventory?: boolean | null;
   basePrice?: any | null;
   visibleInListings?: boolean | null;
+  rating?: number | null;
 }
 
 export interface ProductOrder {
